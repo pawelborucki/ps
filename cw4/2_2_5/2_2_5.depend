@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1615986049 source:c:\studia\ps\cw4\2_2_5\main.c
+	<stdio.h>
+	<stdlib.h>
+
