@@ -2,7 +2,7 @@
 #include <stdlib.h>
 void rozklad(unsigned int n){
     for(int i = 0; i <= n; i++){
-        for(int j = 1; j <= n; j++){
+        for(int j = 1; j <= i; j++){
             if(i * i + j * j == n)
                 printf("%d*%d+%d*%d=%d\n",i,i,j,j,n);
         }
